@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dip"
+            android:text="HELLO"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/very_big_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dip"
+            android:layout_marginRight="40dip"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/rounded_rect_gray"
+            android:gravity="center"
+            android:padding="@dimen/large_space"
+            android:text="First thing we need to do for use your appliances is to connect to the wifi of our SOKET "
+            android:textSize="@dimen/big_text" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/large_space">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wifi Name is : "
+                    android:textSize="@dimen/normal2_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:text="Password : "
+                    android:textSize="@dimen/normal2_text" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/large_space"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VEGG"
+                    android:textSize="@dimen/big_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/medium_space"
+                    android:text="VEGG"
+                    android:textSize="@dimen/big_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnGoToSetting"
+            android:layout_width="170dip"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/large_space"
+            android:background="@drawable/rounded_rect"
+            android:text="Go to Wifi" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorTrans">#59000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="btn_gray1">#DCE1E3</color>
+    <color name="btn_gray">#BCBEC1</color>
+    <color name="btn_dark_gray">#BBBCBD</color>
+    <color name="edt_dark_gray">#9B9EA2</color>
+
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PlugApp</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="err_no_internet">Please check your Internet connectivity.</string>
+    <string name="err_flag_false">Oops!Something went wrong.</string>
+</resources>

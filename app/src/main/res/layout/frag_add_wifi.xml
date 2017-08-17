@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dip"
+        android:text="Wifi Device Name"
+        android:textSize="@dimen/big_text" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dip"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/lytWifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_rect"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_marginLeft="@dimen/large_space"
+                android:src="@drawable/home_icon" />
+
+            <EditText
+                android:id="@+id/txtWifiName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@null"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Enter Username"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/large_space"
+            android:background="@drawable/rounded_rect"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_marginLeft="@dimen/large_space"
+                android:src="@drawable/home_icon" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:background="@null"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:singleLine="true" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRequest"
+            android:layout_width="170dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dip"
+            android:background="@drawable/rounded_rect"
+            android:text="Request" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.riddhi.plugapp.ActMain">
+
+
+    <LinearLayout
+        android:id="@+id/lytHeader"
+        android:layout_width="match_parent"
+        android:layout_height="45dip"
+        android:background="@color/btn_dark_gray"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgHome"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:padding="10dip"
+            android:src="@drawable/home_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Home"
+            android:textSize="@dimen/big_text" />
+
+        <ImageView
+            android:id="@+id/imgLogout"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_marginRight="@dimen/large_space"
+            android:padding="@dimen/medium_space"
+            android:src="@drawable/logout" />
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/containerMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lytHeader"></FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_text">14sp</dimen>
+    <dimen name="normal2_text">16sp</dimen>
+    <dimen name="small_text">10sp</dimen>
+    <dimen name="big_text">18sp</dimen>
+    <dimen name="very_big_text">22sp</dimen>
+    <dimen name="very_large_space">20dip</dimen>
+    <dimen name="large_space">15dip</dimen>
+    <dimen name="medium_space">10dip</dimen>
+    <dimen name="small_space">8dip</dimen>
+    <dimen name="very_very_large_space">30dip</dimen>
+    <dimen name="edt_height">40dip</dimen>
+    <dimen name="medium_length">8dip</dimen>
+    <dimen name="btn_width">180dip</dimen>
+    <dimen name="btn_height">40dip</dimen>
+</resources>
