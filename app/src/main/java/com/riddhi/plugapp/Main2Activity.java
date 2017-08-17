@@ -1,12 +1,11 @@
 package com.riddhi.plugapp;
 
 import android.content.Context;
-import android.net.Uri;
 import android.net.nsd.NsdManager;
 import android.net.nsd.NsdServiceInfo;
 import android.os.AsyncTask;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,7 +13,6 @@ import android.widget.Toast;
 
 import com.neovisionaries.ws.client.ThreadType;
 import com.neovisionaries.ws.client.WebSocket;
-import com.neovisionaries.ws.client.WebSocketCloseCode;
 import com.neovisionaries.ws.client.WebSocketException;
 import com.neovisionaries.ws.client.WebSocketFactory;
 import com.neovisionaries.ws.client.WebSocketFrame;
@@ -252,7 +250,9 @@ public class Main2Activity extends AppCompatActivity implements WebSocketListene
                 nsdManager.discoverServices(
                         "_ws._tcp.", NsdManager.PROTOCOL_DNS_SD, discoveryListener);
 
-            } else Toast.makeText(Main2Activity.this, nsdManager + "", Toast.LENGTH_SHORT).show();
+            }
+
+            else Toast.makeText(Main2Activity.this, nsdManager + "", Toast.LENGTH_SHORT).show();
 
         }
     }
